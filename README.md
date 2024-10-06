@@ -1,17 +1,15 @@
 # Titus Companion
 
-Titus Companion is a Visual Studio Code extension designed for artisans who work with the Titus CSS Toolkit. This extension streamlines your development workflow by providing boilerplate code for variables, making it easier to manage and implement CSS styles in your projects.
+Titus Companion is a Visual Studio Code extension designed for CSS artisans who work with the Titus Toolkit. This extension provides boilerplate code for Titus variables, making easier to implement CSS styles in your projects following this toolkit.
 
 ## Features
 
-- **Quick Boilerplate Insertion:** Automatically inserts a pre-defined boilerplate code snippet when the user presses `Shift + F7`.
-- **Variable Management:** Easily enter variable names in the `system.css` file, which is part of the larger Titus toolkit, enhancing code organization and readability.
+- **Quick Titus Variable Insertion:** Automatically inserts a pre-defined boilerplate code snippet when the user presses `Shift + F7`. This enables the developer to quickly type variable names from the Titus theming system.
 
-## Installation
+### Requirements
 
-1. Install Visual Studio Code if you haven't already.
-2. Open the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-3. Search for "Titus Companion" and click on the install button.
+- Visual Studio Code version 1.93 or higher.
+- Titus CSS Toolkit.
 
 ## Usage
 
@@ -19,25 +17,8 @@ To use Titus Companion:
 
 1. Open a CSS file in your project.
 2. Press `Shift + F7`. 
-3. The boilerplate code will be inserted at the cursor's current position, ready for you to enter your variable names.
-
-## Configuration
-
-This extension does not require additional configuration. Just install and use it with the Titus CSS Toolkit.
-
-## Contributing
-
-Contributions are welcome! If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/devluxor/titus-vscode-companion). You can also contribute by submitting a pull request.
-
-### Requirements
-
-- Visual Studio Code version 1.50 or higher.
-- Titus CSS Toolkit.
+3. The boilerplate code will be inserted at the cursor's current position, ready for you to enter the variable names from the Titus theming system (by default in the `/styles/titus/` folder).
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-Thanks to the contributors of the Titus CSS Toolkit and all the artisans who inspire this project!
