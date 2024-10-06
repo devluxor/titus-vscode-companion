@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
   const insertVariable = vscode.commands.registerCommand('titus-vscode-extension.insertVariable', () => {
     const editor = vscode.window.activeTextEditor;
     if (editor) {
-        const snippetText = 'var(--TITUS-);';
+        const snippetText = ' var(--TITUS-);';
         
         // The `$0` placeholder is where the cursor will be placed after insertion
         const snippet = new vscode.SnippetString(snippetText.replace('-)', '-$0)'));
