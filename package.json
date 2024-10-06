@@ -14,6 +14,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "titus-logo-mini.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
