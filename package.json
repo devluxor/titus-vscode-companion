@@ -19,13 +19,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "titus-vs-codeextension.insertVariable",
+        "command": "titus-vscode-extension.insertVariable",
         "title": "Insert Titus Variable"
       }
     ],
     "keybindings": [
       {
-        "command": "titus-vs-codeextension.insertVariable",
+        "command": "titus-vscode-extension.insertVariable",
         "key": "shift+f7",
         "mac": "shift+f7",
         "when": "editorTextFocus && (editorLangId == 'css' || editorLangId == 'scss' || editorLangId == 'less')"
