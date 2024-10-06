@@ -13,6 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
   const statusBarIcon = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
   statusBarIcon.text = `Titus Companion Active`;
   statusBarIcon.tooltip = "Titus Companion is active and ready!";
+  statusBarIcon.color = '#FFFFFF';
   statusBarIcon.show(); // Display the status bar item
 
   const insertVariable = vscode.commands.registerCommand('titus-vscode-extension.insertVariable', () => {
