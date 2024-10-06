@@ -14,8 +14,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "titus-vscode-extension.helloWorld",
-        "title": "Hello World"
+        "command": "titus-vs-code-extension.insertVariable",
+        "title": "Insert Titus Variable"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "titus-vs-code-extension.insertVariable",
+        "key": "shift+f7",
+        "mac": "shift+f7",
+        "when": "editorTextFocus && (editorLangId == 'css' || editorLangId == 'scss' || editorLangId == 'less')"
       }
     ]
   },
