@@ -1,7 +1,12 @@
 {
   "name": "titus-vscode-extension",
   "displayName": "titus-vscode-extension",
-  "description": "Visual Code Extension for Titus CSS Toolkit",
+  "description": "Visual Code Extension for the Titus CSS Toolkit",
+  "publisher": "devluxor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devluxor/titus-vscode-companion"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
