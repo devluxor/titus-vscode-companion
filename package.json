@@ -30,16 +30,7 @@
         "mac": "shift+f7",
         "when": "editorTextFocus && (editorLangId == 'css' || editorLangId == 'scss' || editorLangId == 'less')"
       }
-    ],
-    "icons": {
-      "titus-icon": {
-        "description": "Titus Icon",
-        "default": {
-          "fontPath": "media/titus.woff",
-          "fontCharacter": "\\1faa1"
-        }
-      }
-    }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

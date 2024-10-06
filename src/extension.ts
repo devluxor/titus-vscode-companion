@@ -9,13 +9,11 @@ export function activate(context: vscode.ExtensionContext) {
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "titus-vscode-extension" is now active!');
-  
-  const statusBarIcon = vscode.window.createStatusBarItem(
-    vscode.StatusBarAlignment.Right,
-    100
-  );
-  statusBarIcon.text = `$(titus-icon)`;
+
+  const statusBarIcon = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+  statusBarIcon.text = `Titus Companion Active`;
   statusBarIcon.tooltip = "Titus Companion is active and ready!";
+  statusBarIcon.color = '#FFFFFF';
   statusBarIcon.show(); // Display the status bar item
 
   const insertVariable = vscode.commands.registerCommand('titus-vscode-extension.insertVariable', () => {
