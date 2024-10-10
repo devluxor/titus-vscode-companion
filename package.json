@@ -1,8 +1,8 @@
 {
-  "name": "titus-vscode-extension",
-  "displayName": "titus-vscode-extension",
+  "name": "titus-companion",
+  "displayName": "Titus Companion",
   "description": "Visual Code Extension for the Titus CSS Toolkit",
-  "publisher": "devluxor",
+  "publisher": "luxordev",
   "license": "MIT",
   "bugs": {
     "email": "lucas@luxor.dev"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/devluxor/titus-vscode-companion"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -29,13 +29,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "titus-vscode-extension.insertVariable",
+        "command": "titus-companion.insertVariable",
         "title": "Insert Titus Variable"
       }
     ],
     "keybindings": [
       {
-        "command": "titus-vscode-extension.insertVariable",
+        "command": "titus-companion.insertVariable",
         "key": "shift+f7",
         "mac": "shift+f7",
         "when": "editorTextFocus && (editorLangId == 'css' || editorLangId == 'scss' || editorLangId == 'less')"
