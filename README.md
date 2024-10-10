@@ -1,6 +1,6 @@
 # Titus Visual Studio Code Companion
 
-![Titus Logo](titus-logo-text.png)
+![Titus Logo](https://github.com/devluxor/titus-vscode-companion/blob/main/titus-logo-text.png?raw=true)
 
 Titus Companion is a Visual Studio Code extension designed for CSS artisans who work with the Titus toolkit. This extension provides boilerplate code for Titus variables, making easier to implement CSS styles in your projects when using this toolkit.
 
@@ -28,7 +28,7 @@ To use the Titus Companion:
 
 You will notice the extension is active by the needle and thread icon to the right of the VS Code status bar:
 
-![Titus Status Bar Icon](titus-status-bar-icon.png)
+![Titus Status Bar Icon](https://github.com/devluxor/titus-vscode-companion/blob/main/titus-status-bar-icon.png?raw=true)
 
 ## Variable codes
 
